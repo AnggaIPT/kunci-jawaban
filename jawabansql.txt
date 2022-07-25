@@ -1,0 +1,4 @@
+SELECT sales.product_id, product.product_name FROM sales LEFT JOIN product
+ON sales.product_id = product.product_id WHERE sales_date BETWEEN '2022-01-01' AND '2022-03-31' GROUP BY sales.product_id;
+
+BY: PITUNG
